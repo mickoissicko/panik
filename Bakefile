@@ -2,7 +2,7 @@
 
 run: [cd src/ && g++];
 out: [../bin/out];
-src: [main.c prepare.cpp starter.cpp];
+src: [main.cpp prepare.cpp starter.cpp];
 
 !main{
     >[run] -o [out] [src];
